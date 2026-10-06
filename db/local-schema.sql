@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS rsvps (
+  id TEXT PRIMARY KEY NOT NULL,
+  name TEXT NOT NULL,
+  guests INTEGER NOT NULL,
+  attendance TEXT NOT NULL,
+  message TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
