@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Swetha & Shivaanandha | 13 November 2026",
-  description: "Together with our families, join us for our wedding in Madurai and reception in Trichy. திருமண அழைப்பிதழ் — சுவேதா & சிவானந்தபாண்டியன்.",
+  title: "Swetha & Shiva Pandiyan | 15 November 2026",
+  description: "Together with our families, join us for our wedding reception in Trichy. திருமண அழைப்பிதழ் — சுவேதா & சிவா பாண்டியன்.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

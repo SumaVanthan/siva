@@ -110,3 +110,44 @@ footer{position:relative;overflow:hidden;text-align:center;padding:67px 6% 0}foo
 @media(max-height:700px) and (min-width:761px){.cine-copy{padding-top:90px;padding-bottom:60px}.cine h1 .nm{font-size:clamp(48px,7vw,88px)}.cine-rule{margin:20px 0 14px}.cine-buttons{margin-top:24px}.cine-love{bottom:30px}}
 @media(prefers-reduced-motion:reduce){.cine-bg img{animation:none;opacity:1}.cine-dust,.cine-float,.cine-veil,.cine-bloom{display:none}.fade,.write,.cine-scroll{animation:none;opacity:1;transform:none;clip-path:none}.cine-scroll span,.cine-love-btn,.cine-love-btn .ring{animation:none}.cine-copy{transform:none}}
 
+
+/* ===== Mobile polish ===== */
+@media(max-width:760px){
+.cine{height:auto;min-height:max(100svh,640px)}
+.cine-copy{padding:130px 7% 124px}
+.cine-love{left:0;right:0;bottom:max(22px,env(safe-area-inset-bottom));justify-content:center;gap:14px}
+.cine-love-label{text-align:left;font-size:15px}
+.cine-link{padding:12px 0}
+.menu-button{min-width:44px;min-height:44px;padding:10px;display:grid;place-items:center}
+.profile h3{font-size:clamp(21px,6.6vw,27px);line-height:1.5;overflow-wrap:normal}
+.tamil .profile h3{overflow-wrap:anywhere}
+.profile>p{font-size:13.5px!important}
+.story-timeline p{font-size:13.5px;line-height:1.8}
+.blessing p{font-size:14.5px}
+.event-info{font-size:13.5px}
+.event-card .small-note{font-size:12.5px}
+.event-date div{font-size:11.5px}
+.countdown-flower{width:190px;right:-90px;top:auto;bottom:-46px;opacity:.4;z-index:0}
+.countdown-grid{position:relative;z-index:1}
+.countdown-caption{font-size:13px}
+.venue-content .venue-time{font-size:13px}
+.venue-content>p,.venue-content p{font-size:14px}
+.reception-art .botanical{opacity:.35;left:-70px}
+.reception-art p{margin-left:0;padding:0 24px;text-align:center;font-size:25px;color:#667255}
+.footer-flower{width:190px;bottom:-34px}
+.footer-phone{font-size:13.5px}
+.footer-bottom{font-size:10.5px}
+}
+@media(max-width:760px){
+.cine{--ph:clamp(360px,58svh,560px);display:block;min-height:0}
+.cine-bg{height:var(--ph)}
+.cine-bg img{object-position:52% 10%}
+.cine-copy{margin:0;padding:calc(var(--ph) - 74px) 7% 130px}
+.cine-bloom{margin-top:0}
+}
+@media(max-width:760px){.nav.open a{padding:11px 0;display:block}.nav.open{gap:2px;padding-block:14px}}
+
+/* single reception card */
+.event-grid{grid-template-columns:minmax(0,420px);justify-content:center}
+.event-0{transform:none}
+.venue-grid{grid-template-columns:minmax(0,560px);justify-content:center}

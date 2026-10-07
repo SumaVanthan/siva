@@ -1,33 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Swetha and Shivaanandha//Wedding Celebration//EN
+PRODID:-//Swetha and Shiva Pandiyan//Wedding Reception//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-BEGIN:VEVENT
-UID:engagement-20261112@swetha-shivaanandha.wedding
-DTSTAMP:20261006T000000Z
-DTSTART:20261112T130000Z
-DTEND:20261112T143000Z
-SUMMARY:Swetha & Shivaanandha - Engagement
-LOCATION:M.P. Mahal\, Karuppayurani\, Madurai
-DESCRIPTION:Engagement from 6:30 PM to 8:00 PM IST.
-END:VEVENT
-BEGIN:VEVENT
-UID:wedding-20261113@swetha-shivaanandha.wedding
-DTSTAMP:20261006T000000Z
-DTSTART:20261113T033000Z
-DTEND:20261113T045000Z
-SUMMARY:Swetha & Shivaanandha - Wedding
-LOCATION:M.P. Mahal\, Madurai to Sivagangai Main Road\, Karuppayurani\,
- Madurai - 20
-DESCRIPTION:Muhurtham from 9:00 AM to 10:20 AM IST. Join our families
-  in celebrating our beautiful beginning.
-END:VEVENT
 BEGIN:VEVENT
 UID:reception-20261115@swetha-shivaanandha.wedding
 DTSTAMP:20261006T000000Z
 DTSTART:20261115T050000Z
-SUMMARY:Swetha & Shivaanandha - Reception
+SUMMARY:Swetha & Shiva Pandiyan - Wedding Reception
 LOCATION:Crystal Convention Centre\, Near Panjappur Bus Stand\,
  Madurai Bypass Road\, Trichy - 620 012
 DESCRIPTION:Reception from 10:30 AM onwards IST.

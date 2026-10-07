@@ -1,4 +1,4 @@
-# Swetha & Shivaanandha — local website repository
+# Swetha & Shiva Pandiyan — local website repository
 
 The complete editable wedding website source is in this repository. It runs on your computer without a Sites account, Cloudflare account, API key or cloud deployment. The existing hosted publication is separate from this local copy.
 
